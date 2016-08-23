@@ -1,5 +1,17 @@
 body {
-  /*background-color: rgb(15, 4, 0);*/
+  background-color: rgb(15, 4, 0);
+}
+
+.header {
+  background-color: black;
+}
+
+.main {
+  background-color: yellow;
+}
+
+.difficulty {
+  /*display: none;*/
 }
 
 h1 {
@@ -9,12 +21,16 @@ h1 {
 
 }
 
-.topic {
+ul {
   color: rgb(119, 217, 33);
   text-align: center;
   margin: 0 auto;
   /*font-family: 'Oswald', sans-serif;*/
   font-family: 'Ubuntu', sans-serif;
+}
 
-
+li {
+  color: blue;
+  text-align: center;
+  margin: 0 auto;
 }

@@ -11,12 +11,9 @@
 - Upon completion of all questions the final score will be displayed. All questions will be displayed along with their answers, and coloured green or red for correct and incorrect answers respectively.
 
 ## Technologies Used
-* HTML
-* CSS
+* HTML / CSS / JavaScript / jQuery
 * Flexbox
-* JavaScript
-* jQuery
-* Git
+Git
 * Github Pages (hosting)
 * Trello (workflow)
 * Atom (text editor)
