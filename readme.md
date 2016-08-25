@@ -1,10 +1,7 @@
-# Antz Quiz
-## Project 3: Quiz Game
-### GA WDI8 Melbourne
+# Quizztastic
+## Project 3
 
 ## User Interactivity
-- A user does not need to signup nor login.
-- Users land on the homepage, where they can customise their quiz by choosing from a selection of topics, a difficulty level and the quiz length i.e. amount of questions.
 - Each quiz question is displayed in a fresh page, together with either multiple choice answers or a text input answer form.
 - Once a particular quiz answer is chosen it is highlighted in some way.
 - Then, either a next button appears, or the next question will be loaded automatically after a short delay.
