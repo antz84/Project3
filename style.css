@@ -1,36 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(15, 4, 0);
+  background-image: url('carbon.jpg');
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.hidden {
+  display: none;
+}
+
+#questions {
+  background-color: rgba(200, 230, 20, 0.5);
+  width: 80%;
+  margin: auto;
+}
+
+#answers {
+  background-color: rgba(100, 200, 200, 0.5);
+  /*height: 50px;*/
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+#review {
+  background-color: rgba(180, 100, 255, 0.5);
+  height: 125px;
+  width: 80%;
+  margin: auto;
+}
+
+#score {
+  background-color: rgba(220, 0, 0, 0.5);
+  height: 75px;
+  width: 80%;
+  margin: auto;
 }
 
 .header {
-  background-color: black;
+  width: auto;
+  height: 60px;
 }
 
-.main {
-  background-color: yellow;
-}
-
-.difficulty {
-  /*display: none;*/
+p {
+  color: white;
 }
 
 h1 {
-  color: rgb(55, 40, 221);
+  color: white;
   text-align: center;
   font-family: 'Baloo Paaji', cursive;
-
 }
 
 ul {
-  color: rgb(119, 217, 33);
+  color: white;
+  font-size: 16px;
   text-align: center;
   margin: 0 auto;
-  /*font-family: 'Oswald', sans-serif;*/
+  list-style: none;
   font-family: 'Ubuntu', sans-serif;
 }
 
 li {
-  color: blue;
+  color: white;
+  font-size: 1.2em;
   text-align: center;
   margin: 0 auto;
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
 }

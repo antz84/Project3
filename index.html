@@ -2,42 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>The Quiz</title>
+    <title>Car Quiz</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Oswald|Ubuntu" rel="stylesheet">
   </head>
 
   <body>
-    <div class='header'>
-      <h1>Quiz Time</h1>
+    <div class="header">
+      <h1>Car Quiz</h1>
     </div>
 
-    <div class='main'>
-      <div class='topics'>
-        <ul class='title'>Topic</ul>
-          <li id='supercars'>Supercars</li>
-          <li id='internet'>Internet</li>
-          <li id='geography'>Geography</li>
-          <li id='history'>History</li>
-          <li id='random'>Random!</li>
-      </div>
+    <div id="questions"></div>
+    <div id="answers"></div>
+    <div id="review" class="hidden"></div>
+    <div id="score" class="hidden"></div>
 
-      <div class='difficulty'>
-        <ul class='title'>Difficulty Level</ul>
-          <li id='novice'>Novice</li>
-          <li id='regular'>Regular</li>
-          <li id='expert'>Expert</li>
-      </div>
-
-      <div class='length'>
-        <ul class='title'>Length</ul>
-          <li id='three'>3 Questions</li>
-          <li id='six'>6 Questions</li>
-          <li id='nine'>9 Questions</li>
-      </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+    <script src="jquery.js"></script>
     <script src='quiz.js'></script>
   </body>
 </html>
