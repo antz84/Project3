@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url('carbon.jpg');
+  background-image: url('images/background.jpg');
   background-size: 100%;
   background-repeat: repeat;
 }
@@ -12,17 +12,39 @@ body {
   display: none;
 }
 
+#temp {
+  width: 100%;
+  height: 100px;
+}
+
+#select {
+  width: 100%;
+  margin: auto;
+  cursor: pointer;
+  text-align: center;
+}
+
 #questions {
   width: 100%;
   margin: auto;
   text-align: center;
 }
 
-#answers {
+#options {
   width: 100%;
   margin: auto;
   cursor: pointer;
   text-align: center;
+  padding-top: 10px;
+}
+
+.feedback {
+  width: auto;
+  height: 20px;
+}
+
+#triviaTitle {
+  height: 60px;
 }
 
 img {
@@ -46,25 +68,28 @@ img {
 }
 
 .header {
-  width: auto;
-  height: 60px;
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 p {
   color: white;
-  font-family: 'Ubuntu, cursive';
+  font-family: 'Exo', sans-serif;
+  font-size: 1.2em;
 }
 
 h1 {
   color: white;
   text-align: center;
-  font-family: 'Play, sans-serif';
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 h3 {
   color: #63b8ee;
   text-align: center;
-  font-family: 'Ubuntu, cursive;'
+font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 ul {
@@ -73,7 +98,7 @@ ul {
   text-align: center;
   margin: 0 auto;
   list-style: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 li {
@@ -82,7 +107,7 @@ li {
   text-align: center;
   margin: 0 auto;
   list-style: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 button {

@@ -1,21 +1,9 @@
 # Quizztastic
 ## Project 3
 
-## User Interactivity
-- Each quiz question is displayed in a fresh page, together with either multiple choice answers or a text input answer form.
-- Once a particular quiz answer is chosen it is highlighted in some way.
-- Then, either a next button appears, or the next question will be loaded automatically after a short delay.
-- Upon completion of all questions the final score will be displayed. All questions will be displayed along with their answers, and coloured green or red for correct and incorrect answers respectively.
-
 ## Technologies Used
-* HTML / CSS / JavaScript / jQuery
-* Flexbox
-Git
-* Github Pages (hosting)
-* Trello (workflow)
-* Atom (text editor)
-* Chrome (dev tools)
-* Butchers paper (wireframe sketches)
+* HTML / CSS / JavaScript / jQuery / Git / Trello
+* Atom / Chrome / Paper (wireframe)
 
 ### Project Brief
 __Overview__
@@ -40,4 +28,3 @@ __Necessary Deliverables__
 * A link to your hosted working game in the URL section of your Github repo. This must be placed inside of your_username.github.io in a folder called project1. It will then be accessible via http://your_username.github.io/project1/
 * A git repository hosted on Github, with a link to your hosted game, and frequent commits dating back to the very beginning of the project. We strongly encourage you to work our of the repository your_username.github.io
 * A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
-* Suggested Ways to Get Started
