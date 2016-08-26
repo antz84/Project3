@@ -13,7 +13,7 @@ var questions = [
   {q:'AJAX is an essential component of:', a:'All of the above', b:'Gmail', c:'Google Maps', d:'A Clean Shower', img:'images/ajx.jpg'},
   {q:'The \'Long Tail\' is a concept in:', a:'Business', b:'Economics', c:'Interwebs', d:'All of the above', img:'images/lng.gif'},
   {q:'When did the iPhone kick off the smartphone revolution?', a:'2007', b:'2005', c:'2008', d:'2006', img:'images/iph.jpg'},
-  {q:'WiFi was invented in 1992 by who?', a:'CSIRO', b:'NASA', c:'Nikola Tesla', d:'Matt Damon', img:'images/wifi.png'},
+  {q:'WiFi was invented in 1992 by who?', a:'CSIRO', b:'NASA', c:'Nikola Tesla', d:'CERN', img:'images/wifi.png'},
   {q:'The first successful \'ARPANET\' message was transmitted in?', a:'1969', b:'1972', c:'1965', d:'1977', img:'images/arpa.jpg'},
   {q:'The Ferrari symbol is called what in Italiano?', a:'Cavallino Rampante', b:'Prancing Horse', c:'Bambini', d:'Toro',img: 'images/16m.jpg'},
   {q:'Tesla cars are powered by this motor, invented by Nikola Tesla.', a:'AC Electric', b:'V8', c:'Hybrid', d:'Hydrogen', img:'images/90d.jpg'},
@@ -26,7 +26,7 @@ var questions = [
   {q:'Which McLaren did 386kmh in 1998?', a:'F1', b:'650S', c:'P1', d:'Veyron', img:'images/mcf1.jpg'},
   {q:'The LaFerrari is powered by a:', a:'V12 & Electric motor', b:'6.5L V12', c:'Twin Turbo V12', d:'Unicorn', img:'images/laf.jpeg'},
   {q:'The Kawasaki H2R\'s power output is?', a:'243kW', b:'200bhp', c:'Adequate', d:'Lacking', img:'images/h2r.jpg'},
-  {q:'\'Grumpy Cat\' is', a:'Here for the lulz', b:'Adorable', c:'Unimpressed', d:'A Unicorn', img:'images/cat.jpg'},
+  {q:'Grumpy Cat is', a:'Here for the lulz', b:'Adorable', c:'Unimpressed', d:'A Unicorn', img:'images/cat.jpg'},
   {q:'\'Sinatra\' is..', a:'All These', b:'An Actor', c:'An simpler alternative to Rails', d:'A Wiseguy', img:'images/sinatra.jpg'},
   {q:'Ruby on Rails is?', a:'All This & More', b:'An MVC Framework', c:'Full Stack', d:'RESTful', img:'images/ruby-rails.jpg'},
   {q:'Brendan Eich invented JavaScript.', a:'True', b:'False', c:'Node', d:'React', img:'images/brendan-eich.jpg'}
@@ -173,7 +173,7 @@ function showXorO(answer) {
   }
   setTimeout(function() {
     $('#temp').hide();
-  }, 750);
+  }, 500);
 }
 
 // once they choose one, then run the makeShorterQuiz function. Store the result in the shuffledQuestions variable.
