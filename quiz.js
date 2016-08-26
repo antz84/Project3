@@ -27,7 +27,7 @@ var questions = [
   {q:'The LaFerrari is powered by a:', a:'V12 & Electric motor', b:'6.5L V12', c:'Twin Turbo V12', d:'Unicorn', img:'images/laf.jpeg'},
   {q:'The Kawasaki H2R\'s power output is?', a:'243kW', b:'200bhp', c:'Adequate', d:'Lacking', img:'images/h2r.jpg'},
   {q:'Grumpy Cat is', a:'Here for the lulz', b:'Adorable', c:'Unimpressed', d:'A Unicorn', img:'images/cat.jpg'},
-  {q:'\'Sinatra\' is..', a:'All These', b:'An Actor', c:'An simpler alternative to Rails', d:'A Wiseguy', img:'images/sinatra.jpg'},
+  {q:'Frank Sinatra is..', a:'Dead', b:'An Actor', c:'An Alternative to Rails', d:'A Wiseguy', img:'images/sinatra.jpg'},
   {q:'Ruby on Rails is?', a:'All This & More', b:'An MVC Framework', c:'Full Stack', d:'RESTful', img:'images/ruby-rails.jpg'},
   {q:'Brendan Eich invented JavaScript.', a:'True', b:'False', c:'Node', d:'React', img:'images/brendan-eich.jpg'}
 ];

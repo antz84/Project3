@@ -1,4 +1,4 @@
-# Quizztastic
+# Trivia Time
 ## Project 3
 
 ## Technologies Used
