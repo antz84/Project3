@@ -4,6 +4,7 @@
 ## Technologies Used
 * HTML / CSS / JavaScript / jQuery / Git / [Trello](https://trello.com/b/JQ8Xr2lU/project-3-quiz)
 * Atom / Chrome / Paper (wireframe)
+* [See It](https://antz84.github.io/Project3/index.html)
 
 ### Project Brief
 __Overview__
